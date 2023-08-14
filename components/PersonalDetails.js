@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const PersonalDetails = ({ formData, updateFormData, errors, setErrors }) => {
@@ -21,7 +22,7 @@ const PersonalDetails = ({ formData, updateFormData, errors, setErrors }) => {
 
   return (
     <div className="mb-4 -mt-52">
-      <img
+      <Image
         src={srcProfile}
         alt={srcProfile}
         width={50}

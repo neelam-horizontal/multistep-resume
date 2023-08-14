@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const EducationDetails = ({ formData, updateFormData, errors, setErrors }) => {
   const { school, sscHscPercentage, highestDegree } = formData;
@@ -20,7 +21,7 @@ const EducationDetails = ({ formData, updateFormData, errors, setErrors }) => {
 
   return (
     <div className="mb-4 -mt-32">
-      <img
+      <Image
         src={srcEduc}
         alt={srcEduc}
         width={50}

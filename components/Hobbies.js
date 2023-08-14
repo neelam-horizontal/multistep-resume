@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hobbies = ({ formData, updateFormData, setErrors, errors }) => {
@@ -17,7 +18,7 @@ const Hobbies = ({ formData, updateFormData, setErrors, errors }) => {
 
   return (
     <div className="mb-4 -mt-36">
-      <img
+      <Image
         src={srcHobby}
         alt={srcHobby}
         width={50}

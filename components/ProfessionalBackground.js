@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ProfessionalBackground = ({
@@ -26,7 +27,7 @@ const ProfessionalBackground = ({
 
   return (
     <div className="mb-4 -mt-32">
-      <img
+      <Image
         src={srcProf}
         alt={srcProf}
         width={50}
