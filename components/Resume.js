@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Resume = ({ formData }) => {
@@ -31,7 +32,7 @@ const Resume = ({ formData }) => {
         {/* Profile */}
         <div class="flex flex-wrap justify-between items-center gap-4">
           <div className="mb-2 flex bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
-            <img
+            <Image
               src={srcProfile}
               alt={srcProfile}
               width={50}
@@ -76,7 +77,7 @@ const Resume = ({ formData }) => {
         {/* Educatiom */}
         <div class="flex flex-wrap justify-between items-center gap-4">
           <div className="mb-2 flex bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
-            <img
+            <Image
               src={srcEduc}
               alt={srcEduc}
               width={50}
@@ -117,7 +118,7 @@ const Resume = ({ formData }) => {
         {/* Profession */}
         <div class="flex flex-wrap justify-between items-center gap-4">
           <div className="mb-2 flex bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-2 sm:gap-4 sm:px-6">
-            <img
+            <Image
               src={srcProf}
               alt={srcProf}
               width={50}
@@ -165,7 +166,7 @@ const Resume = ({ formData }) => {
         {/* Hobby */}
         <div class="flex flex-wrap justify-between items-center gap-4">
           <div className="mb-2 flex bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <img
+            <Image
               src={srcHobby}
               alt={srcHobby}
               width={50}

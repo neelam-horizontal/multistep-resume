@@ -71,8 +71,8 @@ const MultistepForm = () => {
     setFormData({ ...formData, ...newData });
   };
 
-  useEffect(() => {
-    updateFormData();
+  useEffect((newData) => {
+    updateFormData(newData);
   }, [!errors]);
 
   const sections = [
